@@ -1,0 +1,73 @@
+HTML stands for HyperText Markup Language and is one of the three core technologies of the web, 
+HTML, CSS, and JavaScript. HTML defines the structure and meaning of a web document. Hypertext 
+refers to the way hypertext links are placed in the document that allows users to move from one 
+page to another. Markup is a set of symbols or codes for displaying content on the Internet. Web 
+browsers, like Google Chrome, use HTML markup and content to render pages.
+
+
+<!DOCTYPE html>
+    This is a development checklist item for all HTML documents produced in this course. 
+    These days, they don't do much and are basically just needed to make sure your document 
+    behaves correctly
+
+<html lang="en-US"> ... </html>
+    This element wraps all the content on the entire page and is sometimes known as the root 
+    element. It also includes the lang attribute, setting the primary language of the document.
+
+<head> ... </head>
+    The head HTML element contains machine-readable information (metadata) about the document, 
+    like its character support, viewport sizing, title, scripts, and style sheets.
+
+    <meta charset="utf-8">
+        Located within the <head> element. "This attribute declares the document's character encoding. 
+        If the attribute is present, its value must be an ASCII case-insensitive match for the string 
+        "utf-8", because UTF-8 is the only valid encoding for HTML5 documents. <meta> elements which 
+        declare a character encoding must be located entirely within the first 1024 bytes of the 
+        document.
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        Located within the <head> element. "This viewport element ensures the page renders at the 
+        width of viewport, preventing mobile browsers from rendering pages wider than the viewport 
+        and then shrinking them down.
+
+    <title>...</title>
+        Located within the <head> element. "This sets the title of your page, which is the title 
+        that appears in the browser tab of the page. It is also used to describe the page when you 
+        bookmark/favorite it.
+        
+        The content of the title should closely match the content of the heading 1 <h1> element in 
+        the document <body>.
+
+<body> ... </body>
+    The <body> HTML element represents the content of an HTML document. There can be only one 
+    body element in a document. It contains all the content that you want to show to web users 
+    when they visit your page, whether that's text, images, videos, games, playable audio tracks,
+    or whatever else.
+
+Example - What is the basic anatomy of an HTML document?
+    <!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Relevant Document Title</title>
+        </head>
+        <body>
+        </body>
+    </html>
+
+Naming parts of snippet:
+    <p>A paragraph containing a hyperlink to <a href="https://www.byui.edu">BYU-Idaho</a>.</p>
+    1 - <p> - opening or start tag
+    2 - </p> - closing or end tag
+    3 - href - attribute - The value of this href attribute, https://www.byui.edu, specifies 
+        the anchor <a> tag's destination, which destination in this case is an absolute reference,
+        and means hypertext reference.
+    4 - "A paragraph containing a hyperlink to (hyperlink)." - content or the text node of the 
+        paragraph element.
+    5 - The entire snippet. - An HTML paragrph element
+
+Void Element: Some elements have no content and no closing tag.
+    <img src="images/sample.png" alt="A sample image">
+    In this class, we follow contemporary recommendations and do NOT include a closing forward 
+    slash / in the void element's tag even though doing so works in all browsers.
