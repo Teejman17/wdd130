@@ -1,0 +1,11 @@
+
+Semantic Elements
+
+Semantic elements are HTML elements that have a specific meaning and are used to 
+structure the content of a web page. They are used to clearly provide meaning to both the 
+browser and developer.
+
+Non-semantic Element Examples: <div> and <span> are examples of non-semantic elements. These elements do not provide any semantic meaning to the content they contain, but are commonly used with class or id attributes assigned to them.
+
+Semantic Element Examples: <header>, <nav> <main>, <footer>, <article>, <section>, <aside>, and <figure> are some of more common semantic elements. They can be used to identify, with meaning, parts of a web page.
+
