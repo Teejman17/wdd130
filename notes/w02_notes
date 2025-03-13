@@ -9,3 +9,47 @@ Non-semantic Element Examples: <div> and <span> are examples of non-semantic ele
 
 Semantic Element Examples: <header>, <nav> <main>, <footer>, <article>, <section>, <aside>, and <figure> are some of more common semantic elements. They can be used to identify, with meaning, parts of a web page.
 
+HTML Block and Inline Elements
+
+A Block-level element occupies the entire horizontal space of its parent element (container), and vertical space equal to the height of its contents, thereby creating a "block" ... Inline elements are those which only occupy the space bounded by the tags defining the element, instead of breaking the flow of the content
+
+Block-level elements start on a new line on a page and take up the full width of their container. This means the element container stretches out to the left and right as far as it can. Some common block-level elements are: <p> and <div> and all the semantic containers like <header>, <footer>, <main>, <nav>, and <section>.
+
+Inline elements do not start on a new line and only take up the space bounded by the tags defining the element. Some common inline elements are: <span>, <a>, <img>, <button>, and <input>.
+
+CSS
+Keep CSS and HTML files seperate.
+
+CSS Syntax
+CSS rules are made up of a selector and a declaration block { }. The selector is the HTML element(s) you want to style and the declaration block contains one or more declarations separated by semicolons (;). Each declaration includes a CSS property name and a value, separated by a colon (:). The declaration block is enclosed in curly braces.
+
+There are many selector types in CSS. The most common are:
+
+    An HTML Element Selector
+    Class Selector
+    ID Selector
+    Descendant Selector
+    Child Selector
+    Adjacent Sibling Selector
+    General Sibling Selector
+
+The following CSS rule selects all the <h1> elements and sets four properties:
+
+    - the background color of all the <h1> elements to dark blue
+    - the text color of the content of all the <h1> elements to white
+    - padding or space around the text content of 16 pixels
+    = the text is aligned to the center of the <h1> block
+        h1 {
+        background-color: darkblue;
+        color: white;
+        padding: 16px;
+        text-align: center;
+        }
+    
+    CSS Key Terms:
+    Selector — h1
+    Declaration Block — { }
+    Declaration — background-color: darkblue; (There are four total declarations in this example.)
+    Property — background-color
+    Value — darkblue
+    CSS Rule — the entire block of code
