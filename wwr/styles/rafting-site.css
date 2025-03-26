@@ -1,0 +1,75 @@
+/* color palette
+https://coolors.co/26532b-2e294e-5abcb9-dde28d-c2aff0
+ */
+
+:root {
+    --primary-color: #26532B;
+    --secondary-color: #2E294E;
+    --accent1-color: #5ABCB9;
+    --accent2-color: #DDE28D;
+    --heading-font: 'lacquer', serif;
+    --text-font: 'Noto+Sans+JPwght@300', serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
+
+nav a {
+    color: var(--accent2-color);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+main {
+    max-width: 840px;
+}
+
+.herodiv {
+	margin: 10px auto;
+    padding: 15px;
+	position: relative;
+}
+
+.stats {
+    position: absolute;
+    bottom: 25px;
+	left: 15px;
+	background: radial-gradient(#eee, #323A06);
+	border: 1px solid #000;
+	padding: 0.65rem;
+	box-shadow: 0 0 30px #111;
+	opacity: 0.9;
+}
+
+.hero img {
+    display: block;
+    width: 80px;
+    margin: auto;
+}
+
+
+article img {
+    float: right;
+    width: 150px;
+	height: auto;
+}
+
+.adventure img {
+    width: 150px;
+	height: auto;
+}
+
+.sociallinks {
+    text-decoration: none;
+}
+
+
+
+/* h1, h2, h3, h4, h5, h6 { font-family: 'Lacquer', serif; }
+p { font-family: 'Noto+Sans+JPwght@300', serif; } */
