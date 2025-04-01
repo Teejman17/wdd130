@@ -73,7 +73,7 @@ article {
 }
 
 article img {
-    /* display: block; */
+    display: block;
     float: right;
     max-width: 150px;
 	height: auto;
