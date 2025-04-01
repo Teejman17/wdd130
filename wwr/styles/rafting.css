@@ -36,6 +36,7 @@ main {
 	position: relative;
 }
 
+
 .stats {
     position: absolute;
     bottom: 25px;
@@ -49,23 +50,28 @@ main {
 
 .hero img {
     display: block;
-    width: 80px;
+    width: 100%;
+    max-width: 850px;
     margin: auto;
+    position: relative;
 }
 
 
 article img {
+    display: block;
     float: right;
     width: 150px;
 	height: auto;
+    position: absolute;
 }
+ 
 
-.adventure img {
-    width: 150px;
-	height: auto;
+.history {
+    display: block;
 }
 
 .sociallinks {
+    display: block;
     text-decoration: none;
 }
 
