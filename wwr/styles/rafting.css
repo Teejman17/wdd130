@@ -14,9 +14,35 @@ https://coolors.co/26532b-2e294e-5abcb9-dde28d-c2aff0
 
 }
 
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 100%;
+}
+
+
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+    max-width: 100%;
+}
+
+.logo-box {
+    padding: 3rem;
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    font-family: var(--text-font);
 }
 
 nav a {
@@ -27,27 +53,13 @@ nav a {
 }
 
 main {
-    max-width: 840px;
+    max-width: 100%;
 }
 
 .hero {
-	/* margin: 10px auto;
-    padding: 15px; */
     display: block;
 	position: relative;
 }
-
-
-/* .stats {
-    position: absolute;
-    bottom: 25px;
-	left: 15px;
-	background: radial-gradient(#eee, #323A06);
-	border: 1px solid #000;
-	padding: 0.65rem;
-	box-shadow: 0 0 30px #111;
-	opacity: 0.9; */
-
 
 .hero img {
     display: block;
@@ -59,17 +71,18 @@ h1 {
     position: absolute;
     background-color: whitesmoke;
     opacity: .55;
-    top: 3%;
-    left: 25%;
-    }
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
     
 article {
     display: block;
     position: absolute;
     background-color: whitesmoke;
     opacity: .55;
-    top: 20%;
-    left: 10%;
+    top: 25%;
+    left: 25%;
 }
 
 article img {
@@ -77,16 +90,32 @@ article img {
     float: right;
     max-width: 150px;
 	height: auto;
+    box-shadow: #2E294E;
 }
- 
 
 .history {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
+    grid-column: 2/3;
+}
+
+
+
+.image-gallery {
+justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
 }
 
 .sociallinks {
-    display: block;
+    display: flex;
     text-decoration: none;
+    justify-content: flex-end;
+    align-content: center;
 }
 
 
