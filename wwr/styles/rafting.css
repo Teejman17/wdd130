@@ -23,7 +23,6 @@ header {
     max-width: 100%;
 }
 
-
 nav {
     background-color: var(--primary-color);
     padding: 10px;
@@ -58,7 +57,7 @@ main {
 
 .hero {
     display: block;
-	position: relative;
+    position: relative;
 }
 
 .hero img {
@@ -75,7 +74,7 @@ h1 {
     text-align: center;
     width: 100%;
 }
-    
+
 article {
     display: block;
     position: absolute;
@@ -89,26 +88,36 @@ article img {
     display: block;
     float: right;
     max-width: 150px;
-	height: auto;
-    box-shadow: #2E294E;
-}
-
-.history {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    /* box-shadow: #2E294E; */
 }
 
 h2 {
-    grid-column: 2/3;
+    text-align: center;
 }
 
+.history {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.history img {
+    width: 225px;
+    height: auto;
+    margin: auto;
+}
 
 .image-gallery {
-justify-items: center;
     display: grid;
+    justify-items: center;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 40px;
+}
+
+.image-gallery img {
+    max-width: 200px;
+    height: auto;
 }
 
 .sociallinks {
