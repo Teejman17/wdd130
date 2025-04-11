@@ -127,7 +127,98 @@ h2 {
     align-content: center;
 }
 
+.company-info {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 1.2rem;
+    margin: .5rem;
+    background-color: var(--accent2-color);
+}
 
+.map h3 {
+    padding: 1.5rem;
+    text-align: center;
+    align-content: center;
+}
 
+.map {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: .5rem;
+    margin: 1.5rem;
+}
+
+.employees img {
+    width: 350px;
+    height: auto;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: darkgreen;
+    border-radius: 0.5rem;
+    background-color: #b3b3b3;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    margin: .5rem;
+    border: 1px solid rgba(3, 94, 15, 0.514);
+    padding: .5rem;
+}
+
+legend {
+    padding: .2rem;
+    color: var(--primary-color);
+    font-size: 1.5em;
+}
+
+label {
+    text-align: left;
+    padding-right: 4%;
+}
+
+textarea {
+    padding: .2rem;
+    margin: .45rem;
+    height: fit-content;
+    width: 600px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: auto;
+}
+
+button {
+    margin: .5rem;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 1.5rem;
+    padding: .3rem;
+    font-size: 1.1rem;
+  }
+
+button:hover {
+    background-color: rgba(0, 117, 0, 0.884);
+  }
 /* h1, h2, h3, h4, h5, h6 { font-family: 'Lacquer', serif; }
 p { font-family: 'Noto+Sans+JPwght@300', serif; } */
