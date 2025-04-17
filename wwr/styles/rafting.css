@@ -256,7 +256,7 @@ button:hover {
     height: auto;
 }
 
-.trips {
+.offers {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -267,12 +267,12 @@ button:hover {
     margin: 1.5rem;
 }
 
-.trips img {
+.offers img {
     max-width: 350px;
     height: auto;
 }
 
-.trips a {
+.offers a {
     position: relative;
 }
 
