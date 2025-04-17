@@ -268,7 +268,7 @@ button:hover {
 }
 
 .offers img {
-    max-width: 350px;
+    width: 350px;
     height: auto;
 }
 
