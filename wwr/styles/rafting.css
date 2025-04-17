@@ -242,14 +242,7 @@ button:hover {
     background-color: var(--accent2-color);
 }
 
-/* h2 {
-    color: whitesmoke;
-    position: absolute;
-    top: 55%;
-    text-align: center;
-    /* opacity: .55; */
-    /* width: 100%; 
-} */
+
 
 .home-page h3 {
     text-align: center;
@@ -281,6 +274,32 @@ button:hover {
 
 .trips a {
     position: relative;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: .5rem;
+    margin: 1.5rem;
+}
+
+.trips img {
+    width: 350px;
+    height: auto;
+}
+
+.trips p {
+    padding: 8px;
+}
+
+.contact {
+    text-align: center;
+    background-color: var(--accent1-color);
+    margin: 5px;
+    padding: 10px;
 }
 /* h1, h2, h3, h4, h5, h6 { font-family: 'Lacquer', serif; }
 p { font-family: 'Noto+Sans+JPwght@300', serif; } */
