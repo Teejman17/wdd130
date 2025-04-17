@@ -66,6 +66,20 @@ main {
     height: auto;
 }
 
+.hero h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: var(--accent2-color);
+}
+
+.hero p {
+    background-color: var(--accent2-color);
+    margin: 0;
+    padding: 15px;
+
+}
+
 h1 {
     position: absolute;
     background-color: whitesmoke;
@@ -220,5 +234,53 @@ button {
 button:hover {
     background-color: rgba(0, 117, 0, 0.884);
   }
+
+.home-page {
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: var(--accent2-color);
+}
+
+/* h2 {
+    color: whitesmoke;
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    /* opacity: .55; */
+    /* width: 100%; 
+} */
+
+.home-page h3 {
+    text-align: center;
+    background-color: var(--accent2-color);
+    
+}
+
+.home-page img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: .5rem;
+    margin: 1.5rem;
+}
+
+.trips img {
+    max-width: 350px;
+    height: auto;
+}
+
+.trips a {
+    position: relative;
+}
 /* h1, h2, h3, h4, h5, h6 { font-family: 'Lacquer', serif; }
 p { font-family: 'Noto+Sans+JPwght@300', serif; } */
